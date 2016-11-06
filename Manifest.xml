@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<application>
+		<name>付费查看指定内容</name>
+		<alias>MedzPaidView</alias>
+		<version>1.0.0</version>
+		<pw-version>10.0</pw-version>
+		<type>app</type>
+		<description>用户付费可查看楼主发布的帖子区域制定内容。
+		</description>
+		<charset>utf-8</charset>
+		<logo>images/logo.png</logo>
+		<website>https://github.com/medz/phpwind-ext-paid-view</website>
+		<author-name>Seven Du</author-name>
+		<author-email>lovevipdsw@vip.qq.com</author-email>
+		<author-icon>https://avatars.githubusercontent.com/u/5564821</author-icon>
+	</application>
+	<res>resource</res>
+	<inject-services>
+		<s_admin_menu>
+			<MedzPaidView>
+				<class>\Medz\Phpwind\Ext\PaidView\Service\Srv\AdminMenuDo</class>
+				<loadway>load</loadway>
+				<method>getAdmins</method>
+				<description>设置后台菜单</description>
+			</MedzPaidView>
+		</s_admin_menu>
+	</inject-services>
+</manifest>
