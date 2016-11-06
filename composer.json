@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Medz\\Phpwind\\Ext\\PaidView\\": "src/",
+            "Medz\\Phpwind\\Ext\\PaidView\\": "src/"
         }
     },
     "extra": {
