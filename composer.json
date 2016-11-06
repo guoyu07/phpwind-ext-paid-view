@@ -1,0 +1,28 @@
+{
+    "name": "medz/phpwind-ext-paid-view",
+    "type": "custom-folders",
+    "license": "MIT",
+    "description": "支持phpwind楼主发布帖子中插入付费查看内容.",
+    "keywords": ["medz", "phpwind", "插件"],
+    "homepage": "https://github.com/medz/phpwind-ext-paid-view",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "lovevipdsw@outlook.com",
+            "homepage": "http://medz.cn",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "medz/composer-vendor-install-folders": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Medz\\Phpwind\\Ext\\PaidView\\": "src/",
+        }
+    },
+    "extra": {
+        "custom-path": "src/extensions/MedzPaidView"
+    }
+}
