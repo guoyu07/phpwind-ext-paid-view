@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
 	<application>
-		<name>付费查看指定内容</name>
+		<name>付费查看</name>
 		<alias>MedzPaidView</alias>
 		<version>1.0.0</version>
 		<pw-version>10.0</pw-version>
