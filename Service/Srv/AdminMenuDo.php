@@ -1,6 +1,6 @@
 <?php
 
-namespace Medz\Phpwind\Ext\PaidView\Service\Srv;
+namespace Pw\Ext\PaidView\Service\Srv;
 
 class AdminMenuDo
 {
